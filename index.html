@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nehir İnsel — İşletme Öğrencisi</title>
+<meta name="description" content="Nehir İnsel — Marmara Üniversitesi İşletme (İngilizce) öğrencisi. İş geliştirme, pazarlama, finans ve proje yönetimi alanlarında üretiyorum." />
+<meta name="author" content="Nehir İnsel" />
+<meta property="og:title" content="Nehir İnsel — İşletme Öğrencisi" />
+<meta property="og:description" content="İş geliştirme, pazarlama ve organizasyon — fikirleri gerçek sonuçlara dönüştürüyorum." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://barisaliskan.github.io/nehir-insel/" />
+<meta property="og:image" content="https://barisaliskan.github.io/nehir-insel/images/portrait.webp" />
+<meta name="theme-color" content="#0a0a0c" id="themeColor" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<link rel="canonical" href="https://barisaliskan.github.io/nehir-insel/" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<script>
+/* apply saved theme before first paint (no flash) */
+(function(){try{
+  var t=localStorage.getItem('theme');
+  if(!t)t=window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';
+  document.documentElement.setAttribute('data-theme',t);
+}catch(e){}})();
+</script>
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">Nehir İnsel<span class="accent-dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about"      data-tr="Hakkımda"   data-en="About">Hakkımda</a>
+      <a href="#journey"    data-tr="Eğitim"     data-en="Education">Eğitim</a>
+      <a href="#experience" data-tr="Deneyim"    data-en="Career">Deneyim</a>
+      <a href="#leadership" data-tr="Liderlik"   data-en="Leadership">Liderlik</a>
+      <a href="#skills"     data-tr="Yetenekler" data-en="Skills">Yetenekler</a>
+      <a href="#contact" class="nav-cta" data-magnetic data-tr="İletişime Geç" data-en="Let’s Talk">İletişime Geç</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang-switch" id="langSwitch">
+        <button class="lang-btn active" data-lang="tr">TR</button><span>/</span><button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <button class="theme-btn" id="themeBtn" aria-label="Tema değiştir" title="Açık / koyu tema">
+        <svg class="ic-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.4M12 19v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.6 12H5M19 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></svg>
+        <svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.6A8.6 8.6 0 0 1 9.4 3.5a8.6 8.6 0 1 0 11.1 11.1Z"/></svg>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero section" id="hero">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <span class="eyebrow reveal" data-tr="İşletme Öğrencisi — İstanbul" data-en="Business Administration Student — İstanbul">İşletme Öğrencisi — İstanbul</span>
+      <h1 class="hero-title">
+        <span class="reveal-line"><span>Nehir</span></span>
+        <span class="reveal-line"><span>İnsel<span class="accent-dot">.</span></span></span>
+      </h1>
+      <p class="hero-lead reveal" data-html="1"
+         data-tr="Yönetim ve iş geliştirmeye meraklı bir işletme öğrencisiyim; özellikle <em>pazarlama ve finans</em> üzerine öğrenmeye ve üretmeye devam ediyorum. Fikirleri işleyen projelere dönüştürmeyi seviyorum."
+         data-en="A business student passionate about management and business development — I keep learning and building, especially around <em>marketing and finance</em>, and love turning ideas into projects that work.">
+        Yönetim ve iş geliştirmeye meraklı bir işletme öğrencisiyim; özellikle <em>pazarlama ve finans</em> üzerine öğrenmeye ve üretmeye devam ediyorum. Fikirleri işleyen projelere dönüştürmeyi seviyorum.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="https://www.linkedin.com/in/nehir-insel" target="_blank" rel="noopener" class="hero-link" data-magnetic>LinkedIn <span class="arr">↗</span></a>
+        <a href="mailto:nehir.insel333@gmail.com" class="hero-link" data-magnetic><span data-tr="E-posta" data-en="Email">E-posta</span> <span class="arr">↗</span></a>
+        <a href="tel:+905306857015" class="hero-link" data-magnetic><span data-tr="Telefon" data-en="Phone">Telefon</span> <span class="arr">↗</span></a>
+      </div>
+      <a href="assets/Nehir_Insel_CV.pdf" download class="btn-cv reveal" data-magnetic>
+        <span data-tr="CV İndir" data-en="Download CV">CV İndir</span> <span>↓</span>
+      </a>
+    </div>
+    <div class="hero-visual reveal">
+      <figure class="hero-photo">
+        <img src="images/portrait.webp" alt="Nehir İnsel" fetchpriority="high" />
+        <figcaption><span data-tr="Marmara Üniversitesi · İşletme (İngilizce)" data-en="Marmara University · Business Administration (English)">Marmara Üniversitesi · İşletme (İngilizce)</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Business Development</span><span>Marketing</span><span>Finance</span><span>Project Management</span><span>Market Research</span><span>Event Operations</span><span>Brand Communication</span>
+    <span>Business Development</span><span>Marketing</span><span>Finance</span><span>Project Management</span><span>Market Research</span><span>Event Operations</span><span>Brand Communication</span>
+  </div>
+</div>
+
+<!-- ============ STATEMENT ============ -->
+<section class="statement section" id="statement">
+  <div class="stmt-glow" aria-hidden="true"></div>
+  <p class="statement-text reveal" data-html="1"
+     data-tr="Ben Nehir — <span class='hl'>iş geliştirme ve pazarlama</span> alanında kendini sürekli geliştiren bir işletme öğrencisiyim. <span class='hl'>Analiz, strateji ve organizasyonla</span> fikirleri <span class='hl'>gerçek sonuçlara</span> dönüştürmeyi seviyorum."
+     data-en="I’m Nehir — a business student who keeps growing in <span class='hl'>business development and marketing</span>. With <span class='hl'>analysis, strategy and organisation</span> I love turning ideas into <span class='hl'>real results</span>.">Ben Nehir — <span class="hl">iş geliştirme ve pazarlama</span> alanında kendini sürekli geliştiren bir işletme öğrencisiyim. <span class="hl">Analiz, strateji ve organizasyonla</span> fikirleri <span class="hl">gerçek sonuçlara</span> dönüştürmeyi seviyorum.</p>
+</section>
+
+<!-- ============ METRICS ============ -->
+<section class="section metrics-sec">
+  <div class="metrics">
+    <div class="metric reveal">
+      <span class="metric-num"><span data-count="4">0</span><span class="unit">+</span></span>
+      <span class="metric-label" data-tr="Sertifika &amp; Eğitim programı" data-en="Certificates &amp; training programmes">Sertifika &amp; Eğitim programı</span>
+    </div>
+    <div class="metric reveal">
+      <span class="metric-num"><span data-count="2">0</span><span class="unit" data-tr=" yıl" data-en=" yrs"> yıl</span></span>
+      <span class="metric-label" data-tr="Öğrenci kulübü yöneticiliği" data-en="Leading a student society">Öğrenci kulübü yöneticiliği</span>
+    </div>
+    <div class="metric reveal">
+      <span class="metric-num"><span data-count="5">0</span></span>
+      <span class="metric-label" data-tr="Model BM konferansı" data-en="Model UN conferences">Model BM konferansı</span>
+    </div>
+    <div class="metric reveal">
+      <span class="metric-num"><span data-count="2">0</span></span>
+      <span class="metric-label" data-tr="Kurumda profesyonel deneyim" data-en="Companies worked with">Kurumda profesyonel deneyim</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SPECIALISATION + ORBIT ============ -->
+<section class="section spec-sec">
+  <div class="section-head reveal">
+    <span class="section-num">01</span>
+    <h2 class="section-title" data-tr="Üzerine Çalıştığım Alanlar" data-en="Areas I Work In">Üzerine Çalıştığım Alanlar</h2>
+    <p class="section-sub" data-tr="Öğrenmeye ve denemeye devam ettiğim konular" data-en="Topics I keep learning and building with">Öğrenmeye ve denemeye devam ettiğim konular</p>
+  </div>
+  <div class="spec-layout">
+    <div class="spec-list">
+      <div class="spec-item reveal"><span class="spec-n">01</span><div class="spec-text"><strong data-tr="İş Geliştirme" data-en="Business Development">İş Geliştirme</strong><span data-tr="Yeni iş fırsatlarını araştırıp büyüme süreçlerini desteklemek" data-en="Researching new opportunities and supporting growth processes">Yeni iş fırsatlarını araştırıp büyüme süreçlerini desteklemek</span></div></div>
+      <div class="spec-item reveal"><span class="spec-n">02</span><div class="spec-text"><strong data-tr="Pazar &amp; Rakip Araştırması" data-en="Market &amp; Competitor Research">Pazar &amp; Rakip Araştırması</strong><span data-tr="Pazarı, rakipleri ve üreticileri analiz edip karara veri sağlamak" data-en="Analysing the market, competitors and manufacturers to inform decisions">Pazarı, rakipleri ve üreticileri analiz edip karara veri sağlamak</span></div></div>
+      <div class="spec-item reveal"><span class="spec-n">03</span><div class="spec-text"><strong data-tr="Proje Yönetimi" data-en="Project Management">Proje Yönetimi</strong><span data-tr="Planlama, koordinasyon ve zaman yönetimiyle işi sonuca taşımak" data-en="Planning, coordination and time management that carry work to results">Planlama, koordinasyon ve zaman yönetimiyle işi sonuca taşımak</span></div></div>
+      <div class="spec-item reveal"><span class="spec-n">04</span><div class="spec-text"><strong data-tr="Veri Analizi" data-en="Data Analysis">Veri Analizi</strong><span data-tr="Verileri okunabilir içgörülere ve raporlara çevirmek" data-en="Turning data into readable insights and reports">Verileri okunabilir içgörülere ve raporlara çevirmek</span></div></div>
+      <div class="spec-item reveal"><span class="spec-n">05</span><div class="spec-text"><strong data-tr="Sosyal Medya Pazarlaması" data-en="Social Media Marketing">Sosyal Medya Pazarlaması</strong><span data-tr="İçerik ve reklam süreçlerinde aktif rol almak" data-en="Taking an active role in content and advertising processes">İçerik ve reklam süreçlerinde aktif rol almak</span></div></div>
+      <div class="spec-item reveal"><span class="spec-n">06</span><div class="spec-text"><strong data-tr="Ürün Lansmanı" data-en="Product Launch Support">Ürün Lansmanı</strong><span data-tr="Perakende pazarına giriş ve iletişim çalışmalarını desteklemek" data-en="Supporting retail market introductions and communication work">Perakende pazarına giriş ve iletişim çalışmalarını desteklemek</span></div></div>
+      <div class="spec-item reveal"><span class="spec-n">07</span><div class="spec-text"><strong data-tr="Etkinlik Operasyonu" data-en="Event Operations">Etkinlik Operasyonu</strong><span data-tr="Zirve, ziyaret ve organizasyonların saha yönetimi" data-en="On-site management of summits, visits and organisations">Zirve, ziyaret ve organizasyonların saha yönetimi</span></div></div>
+      <div class="spec-item reveal"><span class="spec-n">08</span><div class="spec-text"><strong data-tr="Marka İletişimi" data-en="Brand Communication">Marka İletişimi</strong><span data-tr="Paydaşlarla tutarlı, açık ve etkili iletişim kurmak" data-en="Building consistent, clear and effective communication with stakeholders">Paydaşlarla tutarlı, açık ve etkili iletişim kurmak</span></div></div>
+    </div>
+    <div class="spec-visual reveal" aria-hidden="true">
+      <div class="orbit orbit-1"></div>
+      <div class="orbit orbit-2"><span class="orbit-dot"></span></div>
+      <div class="orbit orbit-3"><span class="orbit-dot"></span></div>
+      <div class="orbit-core"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section about" id="about">
+  <div class="section-head reveal">
+    <span class="section-num">02</span>
+    <h2 class="section-title" data-tr="Hakkımda" data-en="About">Hakkımda</h2>
+  </div>
+  <div class="about-grid">
+    <figure class="about-photo reveal">
+      <img src="images/about.webp" alt="Nehir İnsel — Marmara Üniversitesi Sinerji Kulübü" loading="lazy" />
+    </figure>
+    <div class="about-text reveal">
+      <h3 class="about-headline" data-tr="Öğrenmeye aç, üretmeye hevesli bir işletme öğrencisiyim." data-en="A business student — hungry to learn, eager to build.">Öğrenmeye aç, üretmeye hevesli bir işletme öğrencisiyim.</h3>
+      <p data-tr="Marmara Üniversitesi İşletme (İngilizce) bölümünde üçüncü sınıf öğrencisiyim. Yönetim, iş geliştirme, pazarlama ve finans alanlarına özel bir ilgi duyuyorum: Unsall Group’ta iş geliştirme ve operasyon tarafında çalışıyor, Migros Perakende Grubu’nda satış ve müşteri ilişkileri deneyimi kazandım."
+         data-en="I’m a third-year Business Administration (English) student at Marmara University with a strong interest in management, business development, marketing and finance. I currently work on business development and operations at Unsall Group, and gained retail sales and customer relations experience at Migros Retail Group.">Marmara Üniversitesi İşletme (İngilizce) bölümünde üçüncü sınıf öğrencisiyim. Yönetim, iş geliştirme, pazarlama ve finans alanlarına özel bir ilgi duyuyorum: Unsall Group’ta iş geliştirme ve operasyon tarafında çalışıyor, Migros Perakende Grubu’nda satış ve müşteri ilişkileri deneyimi kazandım.</p>
+      <p data-tr="Analitik düşünme, problem çözme, takım çalışması ve etkili iletişim güçlü yanlarım. Proaktif, uyum sağlayan ve sonuç odaklı bir yapım var; dinamik ortamlarda iş birliğiyle değer üretmeyi ve sürekli öğrenmeyi önemsiyorum."
+         data-en="Analytical thinking, problem-solving, teamwork and effective communication are my strengths. I’m proactive, adaptable and results-oriented, and I value continuous learning and creating value through collaboration in dynamic environments.">Analitik düşünme, problem çözme, takım çalışması ve etkili iletişim güçlü yanlarım. Proaktif, uyum sağlayan ve sonuç odaklı bir yapım var; dinamik ortamlarda iş birliğiyle değer üretmeyi ve sürekli öğrenmeyi önemsiyorum.</p>
+      <div class="about-badges">
+        <span class="badge">📍 <span data-tr="Maltepe, İstanbul" data-en="Maltepe, İstanbul">Maltepe, İstanbul</span></span>
+        <span class="badge"><span data-tr="21 yaşında" data-en="Age 21">21 yaşında</span></span>
+        <span class="badge"><span data-tr="İngilizce B2 · Almanca A2" data-en="English B2 · German A2">İngilizce B2 · Almanca A2</span></span>
+        <span class="badge"><span data-tr="Yeni fırsatlara açık" data-en="Open to opportunities">Yeni fırsatlara açık</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="section journey" id="journey">
+  <div class="section-head reveal">
+    <span class="section-num">03</span>
+    <h2 class="section-title" data-tr="Eğitim" data-en="Education">Eğitim</h2>
+  </div>
+
+  <div class="jcards">
+    <article class="jcard reveal">
+      <figure class="jcard-media">
+        <img src="images/edu-marmara.webp" alt="Marmara Üniversitesi" loading="lazy" />
+        <figcaption>Marmara Ü. · <span data-tr="İşletme Fakültesi" data-en="Faculty of Business">İşletme Fakültesi</span></figcaption>
+      </figure>
+      <div class="jcard-body">
+        <span class="jcard-year" data-tr="2024 — Devam ediyor" data-en="2024 — Present">2024 — Devam ediyor</span>
+        <h4 class="jcard-title" data-tr="İşletme (İngilizce)" data-en="Business Administration (English)">İşletme (İngilizce)</h4>
+        <span class="jcard-org">Marmara Üniversitesi · <span data-tr="İstanbul · Lisans" data-en="İstanbul · BA">İstanbul · Lisans</span></span>
+        <div class="jcard-gpa"><strong>92</strong><span data-tr="/ 100 İngilizce Yeterlilik" data-en="/ 100 English Proficiency">/ 100 İngilizce Yeterlilik</span></div>
+        <p data-tr="Yönetim, iş geliştirme, pazarlama ve finans alanlarına yoğunlaştım; kulüp ve zirve organizasyonlarıyla derste öğrendiklerimi sahada uyguluyorum." data-en="Focused on management, business development, marketing and finance — applying what I learn in class through club and summit organisations.">Yönetim, iş geliştirme, pazarlama ve finans alanlarına yoğunlaştım; kulüp ve zirve organizasyonlarıyla derste öğrendiklerimi sahada uyguluyorum.</p>
+        <span class="jcard-courses-label" data-tr="Öne çıkan alanlar" data-en="Key areas">Öne çıkan alanlar</span>
+        <div class="tag-row">
+          <span data-tr="Yönetim" data-en="Management">Yönetim</span>
+          <span data-tr="Pazarlama" data-en="Marketing">Pazarlama</span>
+          <span data-tr="Finans" data-en="Finance">Finans</span>
+          <span data-tr="İş Geliştirme" data-en="Business Development">İş Geliştirme</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="jcard reveal">
+      <figure class="jcard-media jcard-mono">
+        <b>Bİ</b>
+        <i data-tr="Bahçeşehir Koleji · İzmir" data-en="Bahçeşehir College · İzmir">Bahçeşehir Koleji · İzmir</i>
+      </figure>
+      <div class="jcard-body">
+        <span class="jcard-year">2019 — 2023</span>
+        <h4 class="jcard-title" data-tr="Anadolu Lisesi" data-en="Anatolian High School">Anadolu Lisesi</h4>
+        <span class="jcard-org">Bahçeşehir Koleji · <span data-tr="İzmir · Anadolu Lisesi" data-en="İzmir · Anatolian High School">İzmir · Anadolu Lisesi</span></span>
+        <div class="jcard-gpa"><strong>95</strong><span data-tr="/ 100 Diploma" data-en="/ 100 Diploma">/ 100 Diploma</span></div>
+        <p data-tr="Güçlü bir akademik ortalamayla mezun oldum. Model Birleşmiş Milletler konferansları ve gençlik projeleriyle liderlik, müzakere ve iletişim tarafımın temelini burada attım." data-en="Graduated with a strong academic average. Model United Nations conferences and youth projects laid the foundation of my leadership, negotiation and communication skills.">Güçlü bir akademik ortalamayla mezun oldum. Model Birleşmiş Milletler konferansları ve gençlik projeleriyle liderlik, müzakere ve iletişim tarafımın temelini burada attım.</p>
+        <span class="jcard-courses-label" data-tr="Öne çıkanlar" data-en="Highlights">Öne çıkanlar</span>
+        <div class="tag-row">
+          <span>Model United Nations</span>
+          <span data-tr="UNSC Başkanlığı" data-en="UNSC Chair">UNSC Başkanlığı</span>
+          <span data-tr="Gençlik Projeleri" data-en="Youth Projects">Gençlik Projeleri</span>
+        </div>
+      </div>
+    </article>
+  </div>
+
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section experience" id="experience">
+  <div class="section-head reveal">
+    <span class="section-num">04</span>
+    <h2 class="section-title" data-tr="Deneyim" data-en="Career">Deneyim</h2>
+    <p class="section-sub" data-tr="Ürettiğim yerler" data-en="Where I’ve worked">Ürettiğim yerler</p>
+  </div>
+
+  <div class="xp-list">
+    <article class="xp-row reveal">
+      <div class="xp-index">01</div>
+      <div class="xp-main">
+        <div class="xp-top">
+          <div>
+            <h3 class="xp-role" data-tr="İş Geliştirme &amp; Operasyon Stajyeri" data-en="Business Development &amp; Operations Intern">İş Geliştirme &amp; Operasyon Stajyeri</h3>
+            <span class="xp-org">Unsall Group</span>
+          </div>
+          <span class="xp-date" data-tr="05.2026 — Devam ediyor" data-en="05.2026 — Present">05.2026 — Devam ediyor</span>
+        </div>
+        <p class="xp-lead" data-tr="İş geliştirme süreçlerini desteklemek için pazar, rakip ve üretici araştırmaları yürütüyor; sosyal medya, reklam ve lansman çalışmalarında aktif rol alıyorum."
+           data-en="I run market, competitor and manufacturer research to support business development, and take an active role in social media, advertising and launch work.">İş geliştirme süreçlerini desteklemek için pazar, rakip ve üretici araştırmaları yürütüyor; sosyal medya, reklam ve lansman çalışmalarında aktif rol alıyorum.</p>
+        <ul class="xp-bullets">
+          <li data-tr="Pazar, rakip ve üretici araştırmaları yaparak iş geliştirme kararlarına veri sağlıyorum." data-en="Conduct market, competitor and manufacturer research that feeds business development decisions.">Pazar, rakip ve üretici araştırmaları yaparak iş geliştirme kararlarına veri sağlıyorum.</li>
+          <li data-tr="Sosyal medya ve reklam süreçlerine katılarak marka iletişimini destekliyorum." data-en="Participate in social media and advertising processes, supporting brand communication.">Sosyal medya ve reklam süreçlerine katılarak marka iletişimini destekliyorum.</li>
+          <li data-tr="Perakende pazarına giriş için ürün lansmanı ve iletişim çalışmalarında görev alıyorum." data-en="Support product launch and communication activities for retail market introductions.">Perakende pazarına giriş için ürün lansmanı ve iletişim çalışmalarında görev alıyorum.</li>
+        </ul>
+        <div class="tag-row"><span data-tr="İş Geliştirme" data-en="Business Development">İş Geliştirme</span><span data-tr="Pazar Araştırması" data-en="Market Research">Pazar Araştırması</span><span data-tr="Rakip Analizi" data-en="Competitor Analysis">Rakip Analizi</span><span data-tr="Ürün Lansmanı" data-en="Product Launch">Ürün Lansmanı</span><span data-tr="Sosyal Medya" data-en="Social Media">Sosyal Medya</span><span data-tr="Operasyon" data-en="Operations">Operasyon</span></div>
+      </div>
+    </article>
+
+    <article class="xp-row reveal">
+      <div class="xp-index">02</div>
+      <div class="xp-main">
+        <div class="xp-top">
+          <div>
+            <h3 class="xp-role" data-tr="Satış Danışmanı" data-en="Sales Advisor">Satış Danışmanı</h3>
+            <span class="xp-org" data-tr="Migros Perakende Grubu · İzmir" data-en="Migros Retail Group · İzmir">Migros Perakende Grubu · İzmir</span>
+          </div>
+          <span class="xp-date">08.2024 — 09.2024</span>
+        </div>
+        <p class="xp-lead" data-tr="Perakende sahasında müşteri ilişkileri yönetimi, satış ve ürün yönetimi konularında birebir deneyim kazandım."
+           data-en="Gained hands-on experience in customer relationship management, retail sales and product management.">Perakende sahasında müşteri ilişkileri yönetimi, satış ve ürün yönetimi konularında birebir deneyim kazandım.</p>
+        <ul class="xp-bullets">
+          <li data-tr="Müşteri ilişkileri yönetimi ve satış süreçlerinde aktif rol aldım." data-en="Took an active role in customer relationship management and sales processes.">Müşteri ilişkileri yönetimi ve satış süreçlerinde aktif rol aldım.</li>
+          <li data-tr="Ürün yönetimi ve günlük mağaza operasyonlarının yürütülmesini destekledim." data-en="Supported product management and day-to-day store operations.">Ürün yönetimi ve günlük mağaza operasyonlarının yürütülmesini destekledim.</li>
+          <li data-tr="Yoğun tempolu bir sahada takım çalışması ve iletişim becerilerimi geliştirdim." data-en="Sharpened my teamwork and communication skills in a fast-paced retail environment.">Yoğun tempolu bir sahada takım çalışması ve iletişim becerilerimi geliştirdim.</li>
+        </ul>
+        <div class="tag-row"><span data-tr="Perakende" data-en="Retail">Perakende</span><span data-tr="Satış" data-en="Sales">Satış</span><span data-tr="Müşteri İlişkileri" data-en="Customer Relations">Müşteri İlişkileri</span><span data-tr="Ürün Yönetimi" data-en="Product Management">Ürün Yönetimi</span></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ LEADERSHIP & CLUBS ============ -->
+<section class="projects-sec" id="leadership">
+  <div class="section spec-head-wrap">
+    <div class="section-head reveal" style="margin-bottom:0">
+      <span class="section-num">05</span>
+      <h2 class="section-title" data-tr="Kulüp &amp; Liderlik" data-en="Leadership &amp; Clubs">Kulüp &amp; Liderlik</h2>
+      <p class="section-sub" data-tr="Sahada öğrendiklerim — kaydırarak keşfet" data-en="What the field taught me — scroll to explore">Sahada öğrendiklerim — kaydırarak keşfet</p>
+    </div>
+  </div>
+
+  <!-- full-bleed cinematic scroll-driven gallery -->
+  <section class="mio-scroll" id="mioScroll">
+    <div class="mio-sticky">
+      <div class="carousel">
+        <div class="carousel-glow" aria-hidden="true"></div>
+        <div class="carousel-inner">
+          <div class="carousel-info">
+            <span class="proj-badge" data-tr="Öğrenci Kulübü · Yönetim" data-en="Student Society · Leadership">Öğrenci Kulübü · Yönetim</span>
+            <h3 class="carousel-title">Marmara Sinerji</h3>
+            <p class="carousel-desc" data-tr="Marmara Üniversitesi Sinerji Kulübü’nde Başkan Yardımcısı olarak stratejik planlamayı yönetiyor, kulüp operasyonlarını koordine ediyorum. Kariyer zirveleri, önde gelen kurumlara şirket ziyaretleri, sosyal sorumluluk projeleri ve sosyal etkinlikler düzenliyoruz."
+               data-en="As Vice President of Marmara University’s Sinerji Society I lead strategic planning and coordinate club operations. We organise career summits, company visits to leading organisations, social responsibility projects and social events.">Marmara Üniversitesi Sinerji Kulübü’nde Başkan Yardımcısı olarak stratejik planlamayı yönetiyor, kulüp operasyonlarını koordine ediyorum. Kariyer zirveleri, önde gelen kurumlara şirket ziyaretleri, sosyal sorumluluk projeleri ve sosyal etkinlikler düzenliyoruz.</p>
+            <div class="tag-row"><span data-tr="Başkan Yardımcısı" data-en="Vice President">Başkan Yardımcısı</span><span data-tr="Stratejik Planlama" data-en="Strategic Planning">Stratejik Planlama</span><span data-tr="Etkinlik Yönetimi" data-en="Event Management">Etkinlik Yönetimi</span><span data-tr="Ekip Koordinasyonu" data-en="Team Coordination">Ekip Koordinasyonu</span></div>
+            <div class="carousel-controls">
+              <span class="car-count"><span id="carCur">1</span> / <span id="carTot">4</span></span>
+              <div class="car-progress" aria-hidden="true"><span id="carProgress"></span></div>
+              <span class="car-hint" data-tr="↓ Kaydırarak gez" data-en="↓ Scroll to explore">↓ Kaydırarak gez</span>
+            </div>
+          </div>
+          <div class="carousel-stage">
+            <div class="carousel-track" id="carTrack">
+              <figure class="car-slide"><img src="images/event-1.webp" alt="Marmara Sinerji Kulübü etkinliği" loading="lazy" /></figure>
+              <figure class="car-slide"><img src="images/event-3.webp" alt="Marmara Sinerji Kulübü sunum" loading="lazy" /></figure>
+              <figure class="car-slide"><img src="images/event-4.webp" alt="Marmara Sinerji Kulübü ekibi" loading="lazy" /></figure>
+              <figure class="car-slide"><img src="images/event-2.webp" alt="Marmara Sinerji Kulübü plaket takdimi" loading="lazy" /></figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- stacked cinematic rows -->
+  <div class="section proj-rows">
+    <article class="proj-row reveal">
+      <figure class="proj-row-media"><img src="images/hl-summit.webp" alt="Sinerji Kulübü zirve ekibi" loading="lazy" /></figure>
+      <div class="proj-row-text">
+        <span class="proj-row-num">02</span>
+        <span class="proj-tag-year" data-tr="Marmara Sinerji · Etkinlik Yönetimi" data-en="Marmara Sinerji · Event Management">Marmara Sinerji · Etkinlik Yönetimi</span>
+        <h3 class="proj-row-title" data-tr="Kariyer Zirveleri" data-en="Career Summits">Kariyer Zirveleri</h3>
+        <p data-tr="SLZ’24 ve HRS’24 zirveleri başta olmak üzere kulübün kariyer zirvelerinin planlama ve yürütme süreçlerinde görev aldım. Program akışı, konuşmacı koordinasyonu ve saha organizasyonu; yüzlerce öğrenciyi sektörle buluşturan bir günün arkasındaki işin tamamı."
+           data-en="I worked on the planning and execution of the society’s career summits, notably SLZ’24 and HRS’24 — programme flow, speaker coordination and on-site organisation: everything behind a day that brings hundreds of students together with the industry.">SLZ’24 ve HRS’24 zirveleri başta olmak üzere kulübün kariyer zirvelerinin planlama ve yürütme süreçlerinde görev aldım. Program akışı, konuşmacı koordinasyonu ve saha organizasyonu; yüzlerce öğrenciyi sektörle buluşturan bir günün arkasındaki işin tamamı.</p>
+        <div class="proj-stats"><div><strong>2</strong><span data-tr="Zirve · SLZ’24 &amp; HRS’24" data-en="Summits · SLZ’24 &amp; HRS’24">Zirve · SLZ’24 &amp; HRS’24</span></div><div><strong>2</strong><span data-tr="Yıl aktif görev" data-en="Years on duty">Yıl aktif görev</span></div></div>
+        <div class="tag-row"><span data-tr="Zirve Organizasyonu" data-en="Summit Organisation">Zirve Organizasyonu</span><span data-tr="Program Akışı" data-en="Programme Flow">Program Akışı</span><span data-tr="Konuşmacı Koordinasyonu" data-en="Speaker Coordination">Konuşmacı Koordinasyonu</span><span data-tr="Saha Yönetimi" data-en="On-site Ops">Saha Yönetimi</span></div>
+      </div>
+    </article>
+
+    <article class="proj-row proj-row-rev reveal">
+      <figure class="proj-row-media"><img src="images/hl-award.webp" alt="Konuşmacıya plaket takdimi" loading="lazy" /></figure>
+      <div class="proj-row-text">
+        <span class="proj-row-num">03</span>
+        <span class="proj-tag-year" data-tr="Marmara Sinerji · Kurum İlişkileri" data-en="Marmara Sinerji · Partner Relations">Marmara Sinerji · Kurum İlişkileri</span>
+        <h3 class="proj-row-title" data-tr="Şirket Ziyaretleri &amp; Kurum İlişkileri" data-en="Company Visits &amp; Partner Relations">Şirket Ziyaretleri &amp; Kurum İlişkileri</h3>
+        <p data-tr="Önde gelen kurumlara düzenlenen şirket ziyaretlerini organize ediyor, konuşmacı ve kurum temsilcileriyle iletişimi yürütüyorum. Davetten teşekkür takdimine kadar süreci uçtan uca takip etmek; kurumsal iletişimin nasıl işlediğini en iyi öğreten iş."
+           data-en="I organise company visits to leading organisations and manage communication with speakers and company representatives. Following the process end to end — from the invitation to the thank-you plaque — is the best teacher of how corporate communication actually works.">Önde gelen kurumlara düzenlenen şirket ziyaretlerini organize ediyor, konuşmacı ve kurum temsilcileriyle iletişimi yürütüyorum. Davetten teşekkür takdimine kadar süreci uçtan uca takip etmek; kurumsal iletişimin nasıl işlediğini en iyi öğreten iş.</p>
+        <div class="proj-stats"><div><strong data-tr="Kurumsal" data-en="Corporate">Kurumsal</strong><span data-tr="Paydaş iletişimi" data-en="Stakeholder comms">Paydaş iletişimi</span></div><div><strong data-tr="Sosyal" data-en="Social">Sosyal</strong><span data-tr="Sorumluluk projeleri" data-en="Responsibility projects">Sorumluluk projeleri</span></div></div>
+        <div class="tag-row"><span data-tr="Şirket Ziyaretleri" data-en="Company Visits">Şirket Ziyaretleri</span><span data-tr="Paydaş Yönetimi" data-en="Stakeholder Management">Paydaş Yönetimi</span><span data-tr="Sosyal Sorumluluk" data-en="Social Responsibility">Sosyal Sorumluluk</span></div>
+      </div>
+    </article>
+
+    <article class="proj-row reveal">
+      <figure class="proj-row-media"><img src="images/hl-speak.webp" alt="Etkinlikte sunum" loading="lazy" /></figure>
+      <div class="proj-row-text">
+        <span class="proj-row-num">04</span>
+        <span class="proj-tag-year" data-tr="Marmara Sinerji · Sunum &amp; İletişim" data-en="Marmara Sinerji · Speaking &amp; Comms">Marmara Sinerji · Sunum &amp; İletişim</span>
+        <h3 class="proj-row-title" data-tr="Sahne &amp; Sunum Deneyimi" data-en="Stage &amp; Speaking Experience">Sahne &amp; Sunum Deneyimi</h3>
+        <p data-tr="Kulüp etkinliklerinde sunum ve moderasyon üstleniyorum. Kalabalık bir salonun karşısında bir fikri anlaşılır biçimde anlatmak, Model BM yıllarından bu yana en çok geliştirdiğim beceri: hazırlık, akış ve sahnede sakin kalmak."
+           data-en="I present and moderate at society events. Explaining an idea clearly in front of a full room is the skill I’ve worked on most since my Model UN years: preparation, flow, and staying calm on stage.">Kulüp etkinliklerinde sunum ve moderasyon üstleniyorum. Kalabalık bir salonun karşısında bir fikri anlaşılır biçimde anlatmak, Model BM yıllarından bu yana en çok geliştirdiğim beceri: hazırlık, akış ve sahnede sakin kalmak.</p>
+        <div class="proj-stats"><div><strong>5</strong><span data-tr="Model BM konferansı" data-en="Model UN conferences">Model BM konferansı</span></div><div><strong>2</strong><span data-tr="Dil · TR &amp; EN" data-en="Languages · TR &amp; EN">Dil · TR &amp; EN</span></div></div>
+        <div class="tag-row"><span data-tr="Sunum" data-en="Public Speaking">Sunum</span><span data-tr="Moderasyon" data-en="Moderation">Moderasyon</span><span data-tr="Müzakere" data-en="Negotiation">Müzakere</span><span data-tr="İletişim" data-en="Communication">İletişim</span></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ MODEL UNITED NATIONS ============ -->
+<section class="section mun" id="mun">
+  <div class="section-head reveal">
+    <span class="section-num">06</span>
+    <h2 class="section-title">Model United Nations</h2>
+    <p class="section-sub" data-tr="Beş konferans, bir başkanlık, bir ödül" data-en="Five conferences, one chairmanship, one award">Beş konferans, bir başkanlık, bir ödül</p>
+  </div>
+  <div class="mun-grid">
+    <div class="mun-item mun-star reveal">
+      <div class="mun-left">
+        <strong data-tr="Bahçeşehir Koleji MUN" data-en="Bahçeşehir College MUN">Bahçeşehir Koleji MUN</strong>
+        <span class="mun-role" data-tr="BM Güvenlik Konseyi · Başkan" data-en="UN Security Council · Chair">BM Güvenlik Konseyi · Başkan</span>
+      </div>
+      <span class="mun-year">2022</span>
+    </div>
+    <div class="mun-item mun-star reveal">
+      <div class="mun-left">
+        <strong data-tr="Galatasaray Üniversitesi MUN" data-en="Galatasaray University MUN">Galatasaray Üniversitesi MUN</strong>
+        <span class="mun-role" data-tr="Delege · Mansiyon Ödülü" data-en="Delegate · Honorable Mention">Delege · Mansiyon Ödülü</span>
+      </div>
+      <span class="mun-year">2020</span>
+    </div>
+    <div class="mun-item reveal">
+      <div class="mun-left">
+        <strong data-tr="Robert Kolej Uluslararası MUN" data-en="Robert College International MUN">Robert Kolej Uluslararası MUN</strong>
+        <span class="mun-role" data-tr="Delege" data-en="Delegate">Delege</span>
+      </div>
+      <span class="mun-year">2021</span>
+    </div>
+    <div class="mun-item reveal">
+      <div class="mun-left">
+        <strong data-tr="Atatürk Anadolu Lisesi MUN" data-en="Atatürk Anatolian High School MUN">Atatürk Anadolu Lisesi MUN</strong>
+        <span class="mun-role" data-tr="Delege" data-en="Delegate">Delege</span>
+      </div>
+      <span class="mun-year">2021</span>
+    </div>
+    <div class="mun-item reveal">
+      <div class="mun-left">
+        <strong data-tr="İzmir Ekonomi Üniversitesi MUN" data-en="Izmir University of Economics MUN">İzmir Ekonomi Üniversitesi MUN</strong>
+        <span class="mun-role" data-tr="Delege" data-en="Delegate">Delege</span>
+      </div>
+      <span class="mun-year">2019</span>
+    </div>
+    <div class="mun-item reveal">
+      <div class="mun-left">
+        <strong data-tr="Teens Dream Video Yarışması" data-en="Teens Dream Video Contest">Teens Dream Video Yarışması</strong>
+        <span class="mun-role" data-tr="Katılımcı · BM Sürdürülebilir Kalkınma Amaçları" data-en="Contestant · UN Sustainable Development Goals">Katılımcı · BM Sürdürülebilir Kalkınma Amaçları</span>
+      </div>
+      <span class="mun-year">2020</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATES ============ -->
+<section class="section certificates" id="certificates">
+  <div class="section-head reveal">
+    <span class="section-num">07</span>
+    <h2 class="section-title" data-tr="Sertifikalar &amp; Eğitimler" data-en="Certificates &amp; Training">Sertifikalar &amp; Eğitimler</h2>
+  </div>
+  <div class="cert-grid">
+    <a class="cert-item cert-feat reveal" href="assets/certs/yetgen.jpg" target="_blank" rel="noopener">
+      <div class="cert-thumb"><img src="images/cert-yetgen.webp" alt="YetGen — Yetkin Gençler katılım sertifikası" loading="lazy" /></div>
+      <div class="cert-info">
+        <div class="cert-top">
+          <strong data-tr="YetGen Akademi Mezunu" data-en="YetGen Academy Graduate">YetGen Akademi Mezunu</strong>
+          <span class="cert-year">2025</span>
+        </div>
+        <span class="cert-org" data-tr="Yetkin Gençler · GAİN · MEF Üniversitesi · Mehmet Zorlu Vakfı · 76 saat" data-en="Yetkin Gençler · GAİN · MEF University · Mehmet Zorlu Foundation · 76 hours">Yetkin Gençler · GAİN · MEF Üniversitesi · Mehmet Zorlu Vakfı · 76 saat</span>
+        <span class="cert-cta" data-tr="Sertifikayı gör ↗" data-en="View certificate ↗">Sertifikayı gör ↗</span>
+      </div>
+    </a>
+    <div class="cert-item reveal">
+      <div class="cert-thumb"><span>Nİ</span></div>
+      <div class="cert-info">
+        <div class="cert-top">
+          <strong data-tr="IS’te Yapay Zekâ Programı" data-en="IS’te Artificial Intelligence Program">IS’te Yapay Zekâ Programı</strong>
+          <span class="cert-year">2026</span>
+        </div>
+        <span class="cert-org" data-tr="Yapay zekânın iş dünyasındaki kullanımı üzerine eğitim programı" data-en="Training programme on the use of AI in business">Yapay zekânın iş dünyasındaki kullanımı üzerine eğitim programı</span>
+      </div>
+    </div>
+    <div class="cert-item reveal">
+      <div class="cert-thumb"><span>Nİ</span></div>
+      <div class="cert-info">
+        <div class="cert-top">
+          <strong>Future Sales Academy</strong>
+          <span class="cert-year">2026</span>
+        </div>
+        <span class="cert-org" data-tr="Youthall · Satış ve müşteri yönetimi eğitimi" data-en="Youthall · Sales and customer management training">Youthall · Satış ve müşteri yönetimi eğitimi</span>
+      </div>
+    </div>
+    <div class="cert-item reveal">
+      <div class="cert-thumb"><span>Nİ</span></div>
+      <div class="cert-info">
+        <div class="cert-top">
+          <strong data-tr="QNB 101 Online Staj Programı" data-en="QNB 101 Online Internship Program">QNB 101 Online Staj Programı</strong>
+          <span class="cert-year">2026</span>
+        </div>
+        <span class="cert-org" data-tr="QNB · Bankacılık ve finans üzerine online staj programı" data-en="QNB · Online internship programme on banking and finance">QNB · Bankacılık ve finans üzerine online staj programı</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS / TOOLS ============ -->
+<section class="section skills" id="skills">
+  <div class="section-head reveal">
+    <span class="section-num">08</span>
+    <h2 class="section-title" data-tr="Yetenekler &amp; Araçlar" data-en="Skills &amp; Tools">Yetenekler &amp; Araçlar</h2>
+    <p class="section-sub" data-tr="İşin ustalık araçları" data-en="The tools of the craft">İşin ustalık araçları</p>
+  </div>
+  <div class="tools-list">
+    <div class="tool-row reveal">
+      <h3 data-tr="İş &amp; Strateji" data-en="Business &amp; Strategy">İş &amp; Strateji</h3>
+      <div class="tool-right">
+        <p data-tr="İş geliştirme, pazar ve rakip araştırması, proje yönetimi ve veri analizi — Unsall Group’ta iş geliştirme süreçlerinde birebir uyguluyorum." data-en="Business development, market and competitor research, project management and data analysis — applied hands-on in business development at Unsall Group.">İş geliştirme, pazar ve rakip araştırması, proje yönetimi ve veri analizi — Unsall Group’ta iş geliştirme süreçlerinde birebir uyguluyorum.</p>
+        <div class="tag-row"><span data-tr="İş Geliştirme" data-en="Business Development">İş Geliştirme</span><span data-tr="Pazar Araştırması" data-en="Market Research">Pazar Araştırması</span><span data-tr="Rakip Analizi" data-en="Competitor Research">Rakip Analizi</span><span data-tr="Proje Yönetimi" data-en="Project Management">Proje Yönetimi</span><span data-tr="Veri Analizi" data-en="Data Analysis">Veri Analizi</span></div>
+      </div>
+    </div>
+    <div class="tool-row reveal">
+      <h3 data-tr="Pazarlama &amp; Operasyon" data-en="Marketing &amp; Ops">Pazarlama &amp; Operasyon</h3>
+      <div class="tool-right">
+        <p data-tr="Sosyal medya pazarlaması, ürün lansmanı desteği, etkinlik operasyonu ve marka iletişimi; hem şirket hem kulüp tarafında yürüttüğüm alanlar." data-en="Social media marketing, product launch support, event operations and brand communication — areas I run on both the company and the society side.">Sosyal medya pazarlaması, ürün lansmanı desteği, etkinlik operasyonu ve marka iletişimi; hem şirket hem kulüp tarafında yürüttüğüm alanlar.</p>
+        <div class="tag-row"><span data-tr="Sosyal Medya" data-en="Social Media">Sosyal Medya</span><span data-tr="Ürün Lansmanı" data-en="Product Launch">Ürün Lansmanı</span><span data-tr="Etkinlik Operasyonu" data-en="Event Operations">Etkinlik Operasyonu</span><span data-tr="Marka İletişimi" data-en="Brand Communication">Marka İletişimi</span></div>
+      </div>
+    </div>
+    <div class="tool-row reveal">
+      <h3 data-tr="Liderlik &amp; Organizasyon" data-en="Leadership &amp; Organisation">Liderlik &amp; Organizasyon</h3>
+      <div class="tool-right">
+        <p data-tr="Stratejik planlama, ekip koordinasyonu ve etkinlik yönetimi — Marmara Sinerji Kulübü Başkan Yardımcılığında her gün uyguladığım işler." data-en="Strategic planning, team coordination and event management — the daily work of being Vice President of the Marmara Sinerji Society.">Stratejik planlama, ekip koordinasyonu ve etkinlik yönetimi — Marmara Sinerji Kulübü Başkan Yardımcılığında her gün uyguladığım işler.</p>
+        <div class="tag-row"><span data-tr="Stratejik Planlama" data-en="Strategic Planning">Stratejik Planlama</span><span data-tr="Ekip Koordinasyonu" data-en="Team Coordination">Ekip Koordinasyonu</span><span data-tr="Etkinlik Yönetimi" data-en="Event Management">Etkinlik Yönetimi</span><span data-tr="Sunum" data-en="Public Speaking">Sunum</span></div>
+      </div>
+    </div>
+    <div class="tool-row reveal">
+      <h3 data-tr="Kişisel Yetkinlikler" data-en="Core Strengths">Kişisel Yetkinlikler</h3>
+      <div class="tool-right">
+        <p data-tr="Analitik düşünme, problem çözme, paydaş yönetimi ve departmanlar arası iş birliği; sonuç odaklı çalışmanın temeli." data-en="Analytical thinking, problem-solving, stakeholder management and cross-functional collaboration — the base of results-oriented work.">Analitik düşünme, problem çözme, paydaş yönetimi ve departmanlar arası iş birliği; sonuç odaklı çalışmanın temeli.</p>
+        <div class="tag-row"><span data-tr="Analitik Düşünme" data-en="Analytical Thinking">Analitik Düşünme</span><span data-tr="Problem Çözme" data-en="Problem Solving">Problem Çözme</span><span data-tr="Paydaş Yönetimi" data-en="Stakeholder Management">Paydaş Yönetimi</span><span data-tr="Takım Çalışması" data-en="Teamwork">Takım Çalışması</span><span data-tr="İletişim" data-en="Communication">İletişim</span></div>
+      </div>
+    </div>
+    <div class="tool-row reveal">
+      <h3 data-tr="Araçlar" data-en="Tools">Araçlar</h3>
+      <div class="tool-right">
+        <p data-tr="Microsoft Office paketini raporlama, sunum ve analiz süreçlerinde etkin kullanıyorum." data-en="I use the Microsoft Office suite effectively for reporting, presentations and analysis.">Microsoft Office paketini raporlama, sunum ve analiz süreçlerinde etkin kullanıyorum.</p>
+        <div class="tag-row"><span>Excel</span><span>Word</span><span>PowerPoint</span><span>Outlook</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="lang-row reveal" style="margin-top:clamp(28px,3vw,40px)">
+    <div class="lang"><strong data-tr="Türkçe" data-en="Turkish">Türkçe</strong><span data-tr="Ana dil" data-en="Native">Ana dil</span></div>
+    <div class="lang"><strong data-tr="İngilizce" data-en="English">İngilizce</strong><span data-tr="B2 · Marmara Yeterlilik 92/100" data-en="B2 · Marmara Proficiency 92/100">B2 · Marmara Yeterlilik 92/100</span></div>
+    <div class="lang"><strong data-tr="Almanca" data-en="German">Almanca</strong><span>A2</span></div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+  <div class="contact-glow" aria-hidden="true"></div>
+  <div class="contact-inner">
+    <span class="section-num reveal">09</span>
+    <h2 class="contact-title reveal" data-tr="Beraber üretelim." data-en="Let’s build together.">Beraber üretelim.</h2>
+    <p class="contact-sub reveal" data-tr="Staj fırsatlarına, iş birliklerine ve yeni projelere açığım. Bir merhaba yeter."
+       data-en="I’m open to internships, collaborations and new projects. A simple hello is enough.">Staj fırsatlarına, iş birliklerine ve yeni projelere açığım. Bir merhaba yeter.</p>
+    <div class="contact-grid reveal">
+      <a href="tel:+905306857015" class="contact-card" data-magnetic><span class="cc-label" data-tr="Telefon" data-en="Phone">Telefon</span><span class="cc-value">+90 530 685 70 15</span></a>
+      <a href="mailto:nehir.insel333@gmail.com" class="contact-card" data-magnetic><span class="cc-label" data-tr="E-posta" data-en="Email">E-posta</span><span class="cc-value">nehir.insel333@gmail.com</span></a>
+      <a href="https://www.linkedin.com/in/nehir-insel" target="_blank" rel="noopener" class="contact-card" data-magnetic><span class="cc-label">LinkedIn</span><span class="cc-value">nehir-insel</span></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span>© <span id="year">2026</span> Nehir İnsel</span>
+    <a href="#top" class="foot-top" data-tr="Yukarı ↑" data-en="Back to top ↑">Yukarı ↑</a>
+    <span class="foot-loc" data-tr="İstanbul, Türkiye" data-en="İstanbul, Türkiye">İstanbul, Türkiye</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
