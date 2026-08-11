@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://nehir-insel.pages.dev/sitemap.xml
+Sitemap: https://barisaliskan.github.io/nehir-insel/sitemap.xml
